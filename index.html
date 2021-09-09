@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/resposive.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+<div class="app">
+    <header class="header">
+        <div class="grid wide">
+            <nav class="header__navbar hide-on-mb-tb">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">Vao cua hang  tren ung dung
+                        <div class="header__qr">
+                            <img src="./asset/image/qr.jpg" alt="QR CODE" class="header__qr-img">
+                        </div>
+                    </li>
+                    <li class="header__navbar-item"><span class="header__navbar-item--no-pointer">Ket noi </span>
+                        <a href="#" class="header__navbar--link"><ion-icon  class="icon__navbar" 
+                            name="logo-facebook"></ion-icon></a>
+                        <a href="#"  class="header__navbar--link"><ion-icon   class="icon__navbar" 
+                            name="logo-instagram"></ion-icon></a>
+                    </li>
+                </ul>
+                <ul class="header__navbar-list">
+                     <li class="header__navbar-item header__navbar-item-has-notify">
+                         <a href="#" class="header__navbar--link"><ion-icon   class="icon__navbar" name="notifications-outline"></ion-icon></a>Thong bao
+                         <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thong bao moi nhan</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewd"><a href="#" class="header__notify-link">
+                                        <img src="./asset/image/mixi1.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                            <span class="header__notify-descriotion">HiddenTag là gải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify-item header__notify-item--viewd"><a href="#" class="header__notify-link">
+                                        <img src="./asset/image/mixi1.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                            <span class="header__notify-descriotion">HiddenTag là gải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify-item header__notify-item--viewd"><a href="#" class="header__notify-link">
+                                        <img src="./asset/image/mixi1.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                            <span class="header__notify-descriotion">HiddenTag là gải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
+                                        </div>
+                                    </a></li>
+                                    <li class="header__notify-item header__notify-item--viewd"><a href="#" class="header__notify-link">
+                                        <img src="./asset/image/mixi1.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                             <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                             <span class="header__notify-descriotion">HiddenTag là gải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="#" class="header__notify-footer-btn">Xem tat ca</a>
+                                </footer>
+                         </div>
+                    </li>
+                    <li class="header__navbar-item">
+                            <a href="" class="header__navbar--link"><ion-icon   class="icon__navbar" 
+                                name="help-circle-outline"></ion-icon></a>Tro giup </li>
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="./asset/image/mixi.jpeg" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Quân Đ. Phạm</span>
+                    </li>         
+                    <ul class="header__navbar-user-menu">
+                        <li class="header__navbar-user-item">
+                            <a href="#">Tài khoản của  tôi</a>
+                        </li>
+                        <li class="header__navbar-user-item">
+                            <a href="#">Địa chỉ của tôi</a>
+                        </li>
+                        <li class="header__navbar-user-item">
+                            <a href="#">Đơn mua</a>
+                        </li>
+                        <li class="header__navbar-user-item">
+                            <a href="#">Đăng xuất</a>
+                        </li>
+
+                    </ul>
+                    <!-- <li class="header__navbar-item   header__navbar-item--strong header__navbar-item--separate"> Dang ki</li>
+                    <li class="header__navbar-item header__navbar-item--strong">Dang nhap</li> -->
+                </ul>
+            </nav>
+            <div class="header-with-search">
+                <label for="mb-search-checkbox" class="header__mb-search">
+                    <ion-icon class="header__mb-search--icon" name="search-outline"></ion-icon>
+                </label>
+                <div class="header__logo ">
+                    <img src="./asset/image/d010b985fc1475e559b6db819889703c.png" class="header__logo-img header--logoo"> 
+                </div>
+
+                <input type="checkbox" hidden id="mb-search-checkbox" class="header__search-checkbox">
+                <div class="header-search ">
+                    <div class="header__search-input--wrap">
+                        <input type="text" class="header-search-input" placeholder="Tìm kiêm sản phẩm">
+                   
+                    <div class="header__search-history">
+                        <h3 class="header-search-history-heading"> lịch sử Tìm Kiếm</h3>
+                        <ul class="header__search-history-list">
+                            <li class="header__search-history-item">
+                                <a href="#">Kem Duong da</a>
+                            </li>
+                             <li class="header__search-history-item">
+                                <a href="#">Kem tri mun</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="header__Search-select">
+                        <span class="header__Search-select-label">Trong shop <ion-icon  class="header__Search-select-icon" name="chevron-down-outline"></ion-icon></span>
+                        <ul class="header__Search-option">
+                            <li class="header__Search-option-item header__Search-option-item--active">
+                                <span>Trong Shop </span>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                            </li>
+                            <li class="header__Search-option-item">
+                                <span>Ngoài Shop </span>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn"><ion-icon class="header__search-btn-icon" name="search-outline"></ion-icon></button>
+                </div>
+                <!-- cart-->
+                <div class="header__cart">
+                  <div class="header__cart-wrap">
+                    <ion-icon class="header-cart-icon" name="cart-outline"></ion-icon>
+                    <div class="header__cart-list header__cart-list--no-cart">
+                        <img src="./asset/image/mixi.jpeg" alt="" class="header__cart-no-cart-img">
+                        <p class="header__cart-list-no-cart-msg"> Chưa có sản phẩm</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__sort-bar">
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Liên quan</a>
+            </li>
+            <li class="header__sort-item header__sort-item--active ">
+                <a href="" class="header__sort-link">Mới nhất</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Bán chạy</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Giá</a>
+            </li>
+        </div>
+    </header>
+<div class="app__container">
+    <div class="grid wide">
+         <div class="row app__content sm-gutter">
+              <div class="col l-2 m-0 c-0">
+                     <nav class="category">
+                           <h3 class="category-heading">Danh Mục</h3>
+                           <ul class="category-list">
+                                  <li class="category-item category-item--active">
+                                        <a href="#" class="category-item__link">Trang Điểm Mặt</a> </li>
+                                   <li class="category-item">
+                                       <a href="#" class="category-item__link">Trang Điểm Môi</a></li>
+                                   <li class="category-item">
+                                      <a href="#" class="category-item__link">Trang Điểm Mắt</a></li>
+                            </ul>
+                     </nav>    
+            </div>
+        <div class="col l-10 c-12 m-12">
+            <div class="home-filter hide-on-mb-tb">
+                       <span class="home-filter__label">Sắp xếp theo</span>
+                       <button class=" home-filter__btn btn">Phổ Biến</button>
+                       <button class=" home-filter__btn btn btn--active">Mới Nhất</button>
+                       <button class=" home-filter__btn btn">Bán Chạy</button>
+
+                    <div class="select-input">
+                        <span class="select-input__label">Giá</span>
+                        <ion-icon class=".select-input__icon" name="chevron-down-outline"></ion-icon>
+                        <ul class="select-input__list">
+                            <li class="select-input__item">
+                                <a href="#" class="select-input__link">Giá:Thấp đến cao</a>
+                            </li>
+                            <li class="select-input__item">
+                                <a href="#" class="select-input__link">Giá:Cao đến thấp</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="home-filter__page">
+                        <span class="home-filter__page-number">
+                            <span class="home-filter__pagecurrent">
+                                1</span>/14
+                        </span>
+                        <div class="home-filter__page-control">
+                            <a href="#" class="home-filter__page-btn home-filter__page-btn--dissabled"><ion-icon class="home-filter__page-icon" name="chevron-back-outline"></ion-icon> </a>
+                            <a href="#" class="home-filter__page-btn"><ion-icon  class="home-filter__page-icon" name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                      </div>
+              <nav class="mb-category">
+                  <ul class="mb-category__list">
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+                    <li class="mb-category__item">
+                        <a href="" class="mb-category__link">Dụng cụ & thiết bị tiện ích</a>
+                    </li>
+
+                  </ul>
+              </nav>        
+
+            <div class="home">
+                <div class="grid wide">
+                    <div class="home__container-heading">
+                        <h2>Danh Mục</h2>
+                    </div>
+                </div>
+              <div class="grid wide">
+                         <div class="home__container row">
+                             <div class="home__container-content col l-12 ">
+                                 <div class="home__container-content-list col l-2 m-2 c-3">
+                             <a href="#" class="home__container-item">
+                                 <div class="home__container-item-img" style="background-image: url(https://dqfashion.vn/wp-content/uploads/2017/04/%C3%81o-c%E1%BB%95-tr%C3%B2n-m%C3%A0u-h%E1%BB%93ng-th%C3%A2n-tr%C6%B0%E1%BB%9Bc.png);"></div>
+                                <h4 class="home__container-item-name">Thời trang nam</h4>
+                             </a>
+                             </div>
+                             <div class="home__container-content-list col l-2 m-2 c-3">
+                             <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(http://noble.com.vn/assets/shops/2021_05/img_7232.png);"></div>
+                               <h4 class="home__container-item-name">Thời trang nữ  </h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://1.bp.blogspot.com/-adwVhhof_ag/YKk-qxbMyhI/AAAAAAAAAzk/0UlYCH5b9zEutOxkloZ-lLUsk0aQDQtbQCLcBGAsYHQ/s16000/50UG6100.png);"></div>
+                               <h4 class="home__container-item-name">Thiết bị điện tử</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://anphat.com.vn/media/product/37428_asus_rog_strix_g17_g713qm_k4113t_r7_5800h_197c27cd1bce4217baedb68f8353d1c5_master.png);"></div>
+                               <h4 class="home__container-item-name">Máy tính & laptop</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://camerabox.vn/uploads/shops/camera/canon-camera/2016/canon-eos-rebel-t6-eos-1300d/canon-eos-rebel-t6-eos-1300d-1.png);"></div>
+                               <h4 class="home__container-item-name">Máy ảnh % máy quay phim</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://duytranwatch.vn/wp-content/uploads/2019/01/m279173-0011-e1546484387679.png);"></div>
+                               <h4 class="home__container-item-name">Đồng hồ</h4>
+                            </a>
+                            </div>
+                      </div>
+                      <div class="home__container-content col l-12 ">                 
+                    <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://static.nike.com/a/images/t_default/shwkni5uxu5zdsvhcea5/cortez-basic-older-shoe-8kwrrB.png);"></div>
+                               <h4 class="home__container-item-name">Giày dép da</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://nagakawa.com.vn/public/uploads/images/0120.png)"></div>
+                               <h4 class="home__container-item-name">Thiết bị gia dụng</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://lh3.googleusercontent.com/proxy/-0lED5Bi7AiYkjCtZCV-c_92xDrhx4GFLgTUggsJ1ZC1pWSH_Tjt-FN7KHVzfU3j6vCj6At_mC2bzvpGn_JuhP23B_Os32qVHd8Imlx4fBD5PcrF);"></div>
+                               <h4 class="home__container-item-name">Thể thao & du lịch</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                            <a href="#" class="home__container-item">
+                                <div class="home__container-item-img" style="background-image: url(https://i.xeoto.com.vn/auto/ford/mustang/ford-mustang-2020-33163.png);"></div>
+                               <h4 class="home__container-item-name">Oto & xe máy & xe đạp</h4>
+                            </a>
+                        </div>
+                        <div class="home__container-content-list col l-2 m-2 c-3">
+                                <a href="#" class="home__container-item">
+                                    <div class="home__container-item-img" style="background-image: url(http://igg.vn/images/upload/34201813229polished-diamond.png);"></div>
+                                   <h4 class="home__container-item-name">Diamind</h4>
+                                </a>
+                            </div>
+                            <div class="home__container-content-list col l-2 m-2 c-3">
+                                <a href="#" class="home__container-item">
+                                    <div class="home__container-item-img" style="background-image: url(https://nguyenquangkhai.com/app/uploads/2020/03/021-5x8-Stacked-Hardcover-Book-Mockup-COVERVAULT-2048x1743-1.png);"></div>
+                                   <h4 class="home__container-item-name">Sách</h4>
+                                </a>
+                                </div>
+                       </div>
+                  </div>
+              </div>
+        </div>
+
+            <div class="home-product">
+                <div class="home-product__title">
+                    <h2>Sản Phẩm Yêu Thích</h2>
+                </div>
+                <div class="row sm-gutter">
+                    <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                         <a href="#" class="home-product-item">
+                            <div class="home-product-item__img" style="background-image:url(https://tse4.mm.bing.net/th?id=OIP.zmnnt7mgDtF98uSXjt6fygHaHa&pid=Api&P=0&w=300&h=300);"></div>                      
+                         <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+                         <div class="home-product-item__price">
+                             <span class="home-product-item__price-old">1.120.000d</span>
+                             <span class="home-product-item__price-current">999.999d</span>
+                         </div>
+                         <div class="home-product-item__action">
+                             <span class="home-product-item__like home-product-item__like--liked">
+                             <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+                             <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+                             </span>
+                             <div class="home-product-item__rating">
+                                <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                                <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                                <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                                <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                             </div>
+                             <span class="home-product-item__sold">88 đã bán</span>
+                            </div>
+                             <div class="home-product-item__origin">
+                                 <span class="home-product-item__brand">Lorem</span>
+                                 <span class="home-product-item__origin-name">Nhat ban</span>
+                             </div>
+                             <div class="home-product-item__favorite">
+                                <ion-icon name="checkmark"></ion-icon>
+                                Yêu thích
+                                <span></span>
+                             </div>
+                             <div class="home-product-item__sale-off">
+                                 <span class="home-product-item__sale-off-percent">10%</span>
+                                 <span class="home-product-item__sale-off-label">GIẢM</span>
+                             </div>
+                     </a>
+                </div>
+                
+                <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                    <a href="#" class="home-product-item">
+                       <div class="home-product-item__img" style="background-image:url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-9/p640x640/226998920_2040789962738606_887796607513540255_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=-TMRHQ87AAMAX8_jWAS&_nc_ht=scontent.fhan3-2.fna&oh=2f1526572d16eb1aadbdf9ccd8933b51&oe=614F6201);"></div>
+                    
+                    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.120.000d</span>
+                        <span class="home-product-item__price-current">999.999d</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <span class="home-product-item__like home-product-item__like--liked">
+                        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+                        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+                        </span>
+                        <div class="home-product-item__rating">
+                           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                           <ion-icon name="star"></ion-icon>
+                        </div>
+                        <span class="home-product-item__sold">88 đã bán</span>
+                       </div>
+                        <div class="home-product-item__origin">
+                            <span class="home-product-item__brand">Lorem</span>
+                            <span class="home-product-item__origin-name">Nhat ban</span>
+                        </div>
+                        <div class="home-product-item__favorite">
+                           <ion-icon name="checkmark"></ion-icon>
+                           Yêu thích
+                           <span></span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">10%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                </a>
+           </div>
+           <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+            <a href="#" class="home-product-item">
+               <div class="home-product-item__img" style="background-image:url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-9/p640x640/227532389_2040789742738628_3253576619034957125_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=SHhioOuGXkoAX8spTC8&_nc_oc=AQkqv7TimdLTjBYQ523czhSG0TvqL-INxLMAoqxJaX-j9wDDgXtZCHocnglgFg8quu8&tn=hjR5Z_ThM4AimFGs&_nc_ht=scontent.fhan3-2.fna&oh=6515e9c4b709ac73146e0d3b84ada072&oe=614C046B);"></div>
+            
+            <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+            <div class="home-product-item__price">
+                <span class="home-product-item__price-old">1.120.000d</span>
+                <span class="home-product-item__price-current">999.999d</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__like--liked">
+                <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+                <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+                </span>
+                <div class="home-product-item__rating">
+                   <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                   <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                   <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                   <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+                   <ion-icon name="star"></ion-icon>
+                </div>
+                <span class="home-product-item__sold">88 đã bán</span>
+               </div>
+                <div class="home-product-item__origin">
+                    <span class="home-product-item__brand">Lorem</span>
+                    <span class="home-product-item__origin-name">Nhat ban</span>
+                </div>
+                <div class="home-product-item__favorite">
+                   <ion-icon name="checkmark"></ion-icon>
+                   Yêu thích
+                   <span></span>
+                </div>
+                <div class="home-product-item__sale-off">
+                    <span class="home-product-item__sale-off-percent">10%</span>
+                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                </div>
+        </a>
+   </div>
+   <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://scontent.fhan4-1.fna.fbcdn.net/v/t1.6435-9/p640x640/231572435_2040789826071953_1532256091935428800_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=hlt7U7uQveQAX87WYug&_nc_ht=scontent.fhan4-1.fna&oh=6f61f7cda495476cb284955bea25dc0e&oe=614AADFF);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://goldstore.vn/wp-content/uploads/2020/10/z2124650221467_3e29590c271b0769a34e421ef186b582.png);"></div>                      
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+  <div class="home-product-item__img" style="background-image:url(https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/lamborghini-urus.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+   <span class="home-product-item__price-old">1.120.000d</span>
+   <span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+   <span class="home-product-item__like home-product-item__like--liked">
+   <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+   <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+   </span>
+   <div class="home-product-item__rating">
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+   </div>
+   <span class="home-product-item__sold">88 đã bán</span>
+  </div>
+   <div class="home-product-item__origin">
+       <span class="home-product-item__brand">Lorem</span>
+       <span class="home-product-item__origin-name">Nhat ban</span>
+   </div>
+   <div class="home-product-item__favorite">
+      <ion-icon name="checkmark"></ion-icon>
+      Yêu thích
+      <span></span>
+   </div>
+   <div class="home-product-item__sale-off">
+       <span class="home-product-item__sale-off-percent">10%</span>
+       <span class="home-product-item__sale-off-label">GIẢM</span>
+   </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+<div class="home-product-item__img" style="background-image:url(https://img.tinbanxe.vn/images/Lamborghini/Lamborghini%20Veneno/ANHDAIDIEN--Lamborghini-Veneno.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+<span class="home-product-item__price-old">1.120.000d</span>
+<span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+<span class="home-product-item__like home-product-item__like--liked">
+<ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+<ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+</span>
+<div class="home-product-item__rating">
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<span class="home-product-item__sold">88 đã bán</span>
+</div>
+<div class="home-product-item__origin">
+<span class="home-product-item__brand">Lorem</span>
+<span class="home-product-item__origin-name">Nhat ban</span>
+</div>
+<div class="home-product-item__favorite">
+<ion-icon name="checkmark"></ion-icon>
+Yêu thích
+<span></span>
+</div>
+<div class="home-product-item__sale-off">
+<span class="home-product-item__sale-off-percent">10%</span>
+<span class="home-product-item__sale-off-label">GIẢM</span>
+</div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+<div class="home-product-item__img" style="background-image:url(https://i.xeoto.com.vn/auto/lamborghini/huracan/lamborghini-huracan-2020-61144.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+<span class="home-product-item__price-old">1.120.000d</span>
+<span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+<span class="home-product-item__like home-product-item__like--liked">
+<ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+<ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+</span>
+<div class="home-product-item__rating">
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<span class="home-product-item__sold">88 đã bán</span>
+</div>
+<div class="home-product-item__origin">
+<span class="home-product-item__brand">Lorem</span>
+<span class="home-product-item__origin-name">Nhat ban</span>
+</div>
+<div class="home-product-item__favorite">
+<ion-icon name="checkmark"></ion-icon>
+Yêu thích
+<span></span>
+</div>
+<div class="home-product-item__sale-off">
+<span class="home-product-item__sale-off-percent">10%</span>
+<span class="home-product-item__sale-off-label">GIẢM</span>
+</div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://i.xeoto.com.vn/auto/w600/ford/ranger/ford-ranger-2021.png);"></div>                      
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+  <div class="home-product-item__img" style="background-image:url(https://product.hstatic.net/200000227393/product/le50aqt6610ug_816e87870fc94dea93ca8c7ff3d49fb6_master.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+   <span class="home-product-item__price-old">1.120.000d</span>
+   <span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+   <span class="home-product-item__like home-product-item__like--liked">
+   <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+   <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+   </span>
+   <div class="home-product-item__rating">
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+   </div>
+   <span class="home-product-item__sold">88 đã bán</span>
+  </div>
+   <div class="home-product-item__origin">
+       <span class="home-product-item__brand">Lorem</span>
+       <span class="home-product-item__origin-name">Nhat ban</span>
+   </div>
+   <div class="home-product-item__favorite">
+      <ion-icon name="checkmark"></ion-icon>
+      Yêu thích
+      <span></span>
+   </div>
+   <div class="home-product-item__sale-off">
+       <span class="home-product-item__sale-off-percent">10%</span>
+       <span class="home-product-item__sale-off-label">GIẢM</span>
+   </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+<div class="home-product-item__img" style="background-image:url(https://hoanghamobile.com/i/preview/Uploads/2020/11/17/macmoi512.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+<span class="home-product-item__price-old">1.120.000d</span>
+<span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+<span class="home-product-item__like home-product-item__like--liked">
+<ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+<ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+</span>
+<div class="home-product-item__rating">
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<span class="home-product-item__sold">88 đã bán</span>
+</div>
+<div class="home-product-item__origin">
+<span class="home-product-item__brand">Lorem</span>
+<span class="home-product-item__origin-name">Nhat ban</span>
+</div>
+<div class="home-product-item__favorite">
+<ion-icon name="checkmark"></ion-icon>
+Yêu thích
+<span></span>
+</div>
+<div class="home-product-item__sale-off">
+<span class="home-product-item__sale-off-percent">10%</span>
+<span class="home-product-item__sale-off-label">GIẢM</span>
+</div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+<div class="home-product-item__img" style="background-image:url(https://wedo.vn/wp-content/uploads/2019/07/mau-thiet-ke-biet-thu-mini-23.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+<span class="home-product-item__price-old">1.120.000d</span>
+<span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+<span class="home-product-item__like home-product-item__like--liked">
+<ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+<ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+</span>
+<div class="home-product-item__rating">
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<span class="home-product-item__sold">88 đã bán</span>
+</div>
+<div class="home-product-item__origin">
+<span class="home-product-item__brand">Lorem</span>
+<span class="home-product-item__origin-name">Nhat ban</span>
+</div>
+<div class="home-product-item__favorite">
+<ion-icon name="checkmark"></ion-icon>
+Yêu thích
+<span></span>
+</div>
+<div class="home-product-item__sale-off">
+<span class="home-product-item__sale-off-percent">10%</span>
+<span class="home-product-item__sale-off-label">GIẢM</span>
+</div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://i.xeoto.com.vn/auto/mercedes-amg/g63/mercedes-amg-g63-2020.png);"></div>                      
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+<a href="#" class="home-product-item">
+  <div class="home-product-item__img" style="background-image:url(https://nguyenquangkhai.com/app/uploads/2020/03/021-5x8-Stacked-Hardcover-Book-Mockup-COVERVAULT-2048x1743-1.png);"></div>
+
+<h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+<div class="home-product-item__price">
+   <span class="home-product-item__price-old">1.120.000d</span>
+   <span class="home-product-item__price-current">999.999d</span>
+</div>
+<div class="home-product-item__action">
+   <span class="home-product-item__like home-product-item__like--liked">
+   <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+   <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+   </span>
+   <div class="home-product-item__rating">
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+   </div>
+   <span class="home-product-item__sold">88 đã bán</span>
+  </div>
+   <div class="home-product-item__origin">
+       <span class="home-product-item__brand">Lorem</span>
+       <span class="home-product-item__origin-name">Nhat ban</span>
+   </div>
+   <div class="home-product-item__favorite">
+      <ion-icon name="checkmark"></ion-icon>
+      Yêu thích
+      <span></span>
+   </div>
+   <div class="home-product-item__sale-off">
+       <span class="home-product-item__sale-off-percent">10%</span>
+       <span class="home-product-item__sale-off-label">GIẢM</span>
+   </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://1.bp.blogspot.com/-mQg3JzGQXiM/X0IyYmDJ7YI/AAAAAAAAHgE/ubEl2MP3l-wMjy5fMtleqXXqXsmL4qe0ACLcBGAsYHQ/s1600/S%25C3%25A1ch%2B-%2B17%2Bc%25C3%25A1ch%2B%25C4%2591%25E1%25BB%2583%2Bx%25C3%25A2y%2Bd%25E1%25BB%25B1ng%2Bs%25E1%25BB%25B1%2Bnghi%25E1%25BB%2587p%2Bkinh%2Bdoanh%2Bc%25E1%25BB%25A7a%2Bb%25E1%25BA%25A1n%2Bv%25E1%25BB%259Bi%2Bm%25E1%25BB%2599t%2Bcu%25E1%25BB%2591n%2Bs%25C3%25A1ch.PNG);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-9/p640x640/228421504_2040790069405262_570122050129202202_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=qW311fkjYEUAX-yZHLb&_nc_ht=scontent.fhan3-2.fna&oh=9eff62d8544b6b28c2249c318065154a&oe=614D6B06);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://scontent.fhan3-1.fna.fbcdn.net/v/t1.6435-9/p640x640/232245307_2040790166071919_8209637315154625078_n.jpg?_nc_cat=102&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=a9_4JnP8t-wAX8dCjF5&_nc_ht=scontent.fhan3-1.fna&oh=e469ac5a8b1b5903cdd592addc8fdb43&oe=614C436F);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/p640x640/225415605_2040789982738604_4187540239304985593_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=OVDExAAh5T8AX8-NvC-&_nc_oc=AQlzdJzhOS40Csi_HKL4GQVBIz_EO2QnYLjYxO1oI0OyT76wONn2uqpa49-2jUQH-jQ&_nc_ht=scontent-hkt1-2.xx&oh=d573c6a155eceb47d17047ae7ad02456&oe=614EA4D4);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/p640x640/232659762_2040789952738607_5001036417299616996_n.jpg?_nc_cat=111&_nc_rgb565=1&ccb=1-5&_nc_sid=b9115d&_nc_ohc=fjsXsap6pP4AX-Pn64h&_nc_ht=scontent.fhan3-3.fna&oh=809ab3982a637c3a94f29bd543a87660&oe=6151B968);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+<div class="grid__column-2-4 col l-2-4 m-4 c-6">
+    <a href="#" class="home-product-item">
+       <div class="home-product-item__img" style="background-image:url(https://i.dlpng.com/static/png/6466290_preview.png);"></div>
+    
+    <h4 class="home-product-item__name">Lorem ipsum dolor sit amet consec tetur adipi sicing elit. Quibusdam, laudantium.</h4>
+    <div class="home-product-item__price">
+        <span class="home-product-item__price-old">1.120.000d</span>
+        <span class="home-product-item__price-current">999.999d</span>
+    </div>
+    <div class="home-product-item__action">
+        <span class="home-product-item__like home-product-item__like--liked">
+        <ion-icon class="home-product-item__like-icon-empty" name="heart-outline"></ion-icon>
+        <ion-icon class="home-product-item__like-icon-fill" name="heart"></ion-icon>
+        </span>
+        <div class="home-product-item__rating">
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon class="home-product-item__star-gold" name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+        </div>
+        <span class="home-product-item__sold">88 đã bán</span>
+       </div>
+        <div class="home-product-item__origin">
+            <span class="home-product-item__brand">Lorem</span>
+            <span class="home-product-item__origin-name">Nhat ban</span>
+        </div>
+        <div class="home-product-item__favorite">
+           <ion-icon name="checkmark"></ion-icon>
+           Yêu thích
+           <span></span>
+        </div>
+        <div class="home-product-item__sale-off">
+            <span class="home-product-item__sale-off-percent">10%</span>
+            <span class="home-product-item__sale-off-label">GIẢM</span>
+        </div>
+</a>
+</div>
+            </div>
+         </div>
+       <div class="home-more">
+         <form class="home-more__login-form" autocomplete="off" action="https://shopee.vn/">
+             <input type="button" id="fbtn" class="btn_login-form" value="Xem Thêm">
+         </form>
+        </div>    
+            <ul class="pagination home-product__pagination">
+                <li class="pagination-item">
+                    <a href="#" class="pagination-item__link">
+                    <ion-icon  class="pagination-item__icon" name="chevron-back-outline"></ion-icon> 
+                    </a>
+                    </li>
+                    <li class="pagination-item pagination-item--active">
+                        <a href="#" class="pagination-item__link">1</a>
+                     </li>
+                    <li class="pagination-item">
+                    <a href="#" class="pagination-item__link">2</a>
+                 </li>
+                      <li class="pagination-item">
+                          <a href="#" class="pagination-item__link">3</a>
+                      </li>
+                      <li class="pagination-item">
+                        <a href="#" class="pagination-item__link">4</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-item__link">5</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-item__link">...</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-item__link">14</a>
+                    </li>
+                      <li class="pagination-item">
+                          <a href="#" class="pagination-item__link">
+                            <ion-icon  class="pagination-item__icon" name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </li>   
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="grid wide footer__content">
+        <div class="row">
+            <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                <div class="h3 footer__heading">Chăm sóc khách hàng</div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                        <a href="#" class="footer-item__link">Shopppe</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                <div class="h3 footer__heading">Giới Thiệu</div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Giới thiệu về shopppe</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Tuyển dụng</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Điều khoản</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                <div class="h3 footer__heading">Danh mục</div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trang điểm mặt</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trang điểm môi</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trang điểm mắt</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__column-2-4 col l-2-4 m-4 c-6">
+                <div class="h3 footer__heading">Theo Dõi</div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link"> <ion-icon class="footer-item__icon" name="logo-facebook"></ion-icon> Facebook</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link"><ion-icon  class="footer-item__icon" name="logo-instagram"></ion-icon> Instagram</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link"> <ion-icon class="footer-item__icon"  name="logo-linkedin"></ion-icon> Linkelin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__column-2-4 col l-2-4 m-8 c-12">
+                <div class="h3 footer__heading">Vào Cửa hàng trên ứng dụng</div>
+              <div class="footer__download">
+               <img src="./asset/image/mixi.jpeg" width="100px" height="100px">
+              </div>
+
+            </div>
+        </div>
+        </div>
+  <div class="footer__bottom">
+      <div class="grid wide">
+          <p class="footer-text">@2021 - bản quyền thuộc về MYCV</p>
+      </div>
+  </div>
+   
+</footer>
+</div>
+<!-- <div class="modal">
+   <div class="modal__overlay"> </div>  
+<div class="modal__body"> -->
+     <!-- <div class="auth-form">
+         <div class="auth-form__container">
+             <div class="auth-form__header">
+                <h3 class="auth-form__heading">Đăng Kí</h3>
+                <span class="auth-form__switch-btn">Đăng nhập</span>
+             </div>
+            <div class="auth-form__form">
+                <div class="auth-form__group">
+                    <input type="text" class="auth-form__input" placeholder=" Nhập email của bạn">
+                </div>
+                <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder=" Nhập password">
+                </div>
+                <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder=" Nhập  lại password">
+                </div>
+            </div>
+            <div class="auth-form__aside">
+                <p class="auth-form__policy-text">
+                               Bằng việc đăng kí, bạn đã đồng ý với shoppe về <a href="#" class="auth-form__text-link">Điều khoản dịch vụ</a> & <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                </p>
+            </div>
+            <div class="auth-form__controls">
+                <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
+                <button class="btn btn--primary">ĐĂNG KÍ</button>
+            </div>
+        </div>
+        <div class="auth-form__socials">
+            <a href="#" class="btn btn--size-s auth-form__socials-facebook btn--with-icon">
+            <ion-icon class="auth-form__socials-icon" name="logo-facebook"></ion-icon>
+        <span class="auth-form__socials-lable">  Kết nối với Facebook</span></a>
+            <a href="#" class="btn btn--size-s auth-form__socials-google btn--with-icon">
+            <ion-icon  class="auth-form__socials-icon" name="logo-google"></ion-icon><span class="auth-form__socials-lable">
+                Đăng nhập với Google
+            </span></a>
+        </div>
+    </div> -->
+<!-- 
+    <div class="auth-form">
+        <div class="auth-form__container">
+            <div class="auth-form__header">
+               <h3 class="auth-form__heading">Đăng Kí</h3>
+               <span class="auth-form__switch-btn">Đăng nhập</span>
+            </div>
+           <div class="auth-form__form">
+               <div class="auth-form__group">
+                   <input type="text" class="auth-form__input" placeholder=" Nhập email của bạn">
+               </div>
+               <div class="auth-form__group">
+                   <input type="password" class="auth-form__input" placeholder=" Nhập password">
+               </div>
+           </div>
+           <div class="auth-form__aside">
+             <div class="auth-from__help">
+                 <a href="" class="auth-from__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                 <span class="auth-form__help-separate"></span>
+                 <a href="" class="auth-from__help-link">Cần trợ giúp ?</a>
+             </div>
+           </div>
+           <div class="auth-form__controls">
+               <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
+               <button class="btn btn--primary">ĐĂNG KÍ</button>
+           </div>
+       </div>
+       <div class="auth-form__socials">
+           <a href="#" class="btn btn--size-s auth-form__socials-facebook btn--with-icon">
+           <ion-icon class="auth-form__socials-icon" name="logo-facebook"></ion-icon>
+       <span class="auth-form__socials-lable">  Kết nối với Facebook</span></a>
+           <a href="#" class="btn btn--size-s auth-form__socials-google btn--with-icon">
+           <ion-icon  class="auth-form__socials-icon" name="logo-google"></ion-icon><span class="auth-form__socials-lable">
+            Kết nối với Google
+           </span></a>
+       </div>
+   </div>          -->
+<!-- </div>
+</div> -->
+
+</body>
+</html>
